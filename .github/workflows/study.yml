@@ -23,3 +23,8 @@ jobs:
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: ${{ inputs.lessons }}
+
+      - name: Remove expired workflow runs
+        uses: c-hive/gha-remove-artifacts@v1
+        with:
+          age: "7 days" # Delete artifacts older than 7 days
