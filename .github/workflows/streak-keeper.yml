@@ -22,7 +22,8 @@ jobs:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: 10
 
-      - name: Remove expired workflow runs
-        uses: c-hive/gha-remove-artifacts@v1
+      - uses: christosgalano/delete-workflow-runs@v1.0.0
         with:
-          age: "7 days" # Delete artifacts older than 7 days
+          owner: long18
+          repo: auto-streak-duolingo
+          token: ${{ secrets.GITHUB_TOKEN }}
