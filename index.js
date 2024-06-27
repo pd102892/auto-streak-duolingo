@@ -5,20 +5,8 @@ const headers = {
 }
 
 const SESSION_PAYLOAD = {
-  "challengeTypes": ["assist", "characterIntro", "characterMatch", "characterPuzzle", "characterSelect", "characterTrace", "completeReverseTranslation", "definition", "dialogue", "form", "freeResponse", "gapFill", "judge", "listen", "listenComplete", "listenMatch", "match", "name", "listenComprehension", "listenIsolation", "listenTap", "partialListen", "partialReverseTranslate", "patternTapComplete", "readComprehension", "select", "selectPronunciation", "selectTranscription", "syllableTap", "syllableListenTap", "speak", "tapCloze", "tapClozeTable", "tapComplete", "tapCompleteTable", "tapDescribe", "translate", "transliterate", "typeCloze", "typeClozeTable", "typeCompleteTable", "writeComprehension"],
-  "fromLanguage": "en",
-  "isFinalLevel": false,
-  "isV2": true,
-  "juicy": true,
-  "learningLanguage": "ja",
-  "smartTipsVersion": 2,
-  "isCustomIntroSkill": false,
-  "isGrammarSkill": false,
-  "levelIndex": 0,
-  "showGrammarSkillSplash": false,
-  "skillId": "060ce4633b12e01d03c5baa22fddd7ab",
-  "type": "LESSON",
-  "levelSessionIndex": 0
+ {"challengeTypes":["assist","characterIntro","characterMatch","characterPuzzle","characterSelect","characterTrace","characterWrite","completeReverseTranslation","definition","dialogue","extendedMatch","extendedListenMatch","form","freeResponse","gapFill","judge","listen","listenComplete","listenMatch","match","name","listenComprehension","listenIsolation","listenSpeak","listenTap","orderTapComplete","partialListen","partialReverseTranslate","patternTapComplete","radioBinary","radioImageSelect","radioListenMatch","radioListenRecognize","radioSelect","readComprehension","reverseAssist","sameDifferent","select","selectPronunciation","selectTranscription","svgPuzzle","syllableTap","syllableListenTap","speak","tapCloze","tapClozeTable","tapComplete","tapCompleteTable","tapDescribe","translate","transliterate","transliterationAssist","typeCloze","typeClozeTable","typeComplete","typeCompleteTable","writeComprehension"],"fromLanguage":"en","isFinalLevel":false,"isV2":true,"juicy":true,"learningLanguage":"es","smartTipsVersion":2,"levelIndex":0,"pathExperiments":["UNIT_VISION_BB_93"],"skillIds":["3b30749ae4846333bc559fbd065ce19c"],"type":"LEXEME_SKILL_LEVEL_PRACTICE","levelSessionIndex":4}
+
 };
 
 const {
